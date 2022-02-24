@@ -46,7 +46,6 @@ def FFT(X):
         fft = tf.signal.fft(
             tf.cast(tf.complex(real=audio, imag=tf.zeros_like(audio)), tf.complex64)
         )
-        #fft = tf.expand_dims(fft, axis=-1)
         X[i]=tf.math.abs(fft[ : (audio.shape[0] // 2)])
 
     return X
