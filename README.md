@@ -15,6 +15,7 @@ pandas version "1.3.4"
 tensorflow version "2.7.0"
 
 keras version "2.7.0"
+
 numpy version "1.20.3"
 
 sklearn version "0.24.2"
