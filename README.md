@@ -6,7 +6,7 @@ this module will read Voice of speakers and then aplly forier transform on these
 
 # CreatModel module
 
-this module will creat the model and train the model
+this module contain a class that  
 
 # Requirements
 
